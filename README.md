@@ -1,6 +1,6 @@
 # Blog App
 
-This project is a comprehensive blog application built using modern web technologies including Next.js, React, Tanstack Query, Shadcn UI, Recharts, Tailwind CSS, and TypeScript. It provides a platform for users to create, edit, and view blog posts with a rich text editor and various other features.
+A comprehensive blog application built using modern web technologies including Next.js, React, Shadcn UI, Tailwind CSS, and TypeScript which provides a platform for users to create, edit, and view blog posts with a rich text editor and various other features.
 
 ## Features
 
