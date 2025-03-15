@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+.nav-link {
+  @apply relative;
+}
+
+.nav-link::after {
+  @apply content-[''] absolute w-full scale-x-0 h-0.5 bg-purple-700 left-0 bottom-0 origin-bottom-right transition-transform duration-300 ease-out;
+}
+
+.nav-link:hover::after {
+  @apply scale-x-100 origin-bottom-left;
+}
+
