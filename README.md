@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blog App
 
-## Getting Started
+This project is a comprehensive blog application built using modern web technologies including Next.js, React, Tanstack Query, Shadcn UI, Recharts, Tailwind CSS, and TypeScript. It provides a platform for users to create, edit, and view blog posts with a rich text editor and various other features.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **React**: A JavaScript library for building user interfaces.
+- **Tanstack Query**: Powerful data fetching and state management for React.
+- **Shadcn UI**: A collection of accessible and customizable UI components.
+- **Recharts**: A charting library built with React and D3.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **TypeScript**: A typed superset of JavaScript that enhances code quality and developer productivity.
+- **Prisma**: An ORM for Node.js and TypeScript.
+- **Clerk Auth.js**: Authentication technology.
+- **Cloudinary**: Image and video management in the cloud.
+- **Framer Motion**: A library for animations in React.
+
+## Installation
+
+To get started with this project, clone the repository and install the dependencies:
+
+```sh
+git clone https://github.com/Marvin-MM/Nextjs-BlogApp.git
+cd Nextjs-BlogApp
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Environment Variables
+Create a .env file in the root directory of the project and add the following variables:
+```
+NEXT_PUBLIC_API_URL=your_api_url
+DATABASE_URL=your_database_url
+NEXTAUTH_URL=your_nextauth_url
+NEXTAUTH_SECRET=your_nextauth_secret
+CLOUDINARY_URL=your_cloudinary_url
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Replace the placeholders with your actual values.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
+To run the project locally, use the following command:
+```
+ yarn dev
+```
 
-## Learn More
+This will start the development server and you can view the app at <http://localhost:3000>
 
-To learn more about Next.js, take a look at the following resources:
+To build the project for production, use the following command:
+```
+yarn build
+```
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Screenshot
+![preview](./public/image.png)
